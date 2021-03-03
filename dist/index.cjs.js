@@ -1871,9 +1871,18 @@ var Icon$O = function (props) {
 };
 
 var Logo = function (_a) {
-    var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
+    _a.isDark; var props = __rest(_a, ["isDark"]);
+    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: 300.6, height: 63.837, viewBox: "0 0 300.6 63.837" }, props),
+        React__default['default'].createElement("g", { transform: "translate(0 -42.831)" },
+            React__default['default'].createElement("path", { "data-name": "Path 1", d: "M76.171 88.251l-1.74-2.593a1.549 1.549 0 010-1.726l1.97-2.936a1.549 1.549 0 000-1.726l-1.973-2.937a1.549 1.549 0 010-1.726l1.971-2.936a1.549 1.549 0 000-1.726l-1.971-2.937a1.549 1.549 0 010-1.726l1.971-2.936a1.549 1.549 0 000-1.726l-1.971-2.937a1.549 1.549 0 010-1.726l1.971-2.936a1.549 1.549 0 000-1.726l-1.971-2.937a1.549 1.549 0 010-1.726l1.74-2.593a.774.774 0 00-.643-1.206H23.47v46.625h52.058a.775.775 0 00.643-1.207z", fill: "#bed8fb" }),
+            React__default['default'].createElement("path", { "data-name": "Path 2", d: "M41.521 42.92l-.195-.089H23.47v46.626h26.912V53.783c0-4.339-3.147-8.2-8.861-10.864z", fill: "#9dc6fb" }),
+            React__default['default'].createElement("path", { "data-name": "Path 3", d: "M0 95.715c0 6.049 10.508 10.952 23.47 10.952s23.47-4.9 23.47-10.952V53.783H0z", fill: "#ecf4ff" }),
+            React__default['default'].createElement("path", { "data-name": "Path 4", d: "M43.813 53.783v41.932c0 5.8-9.673 10.552-21.9 10.928q.776.024 1.565.025c12.962 0 23.47-4.9 23.47-10.952V53.783z", fill: "#cbe2ff" }),
+            React__default['default'].createElement("ellipse", { "data-name": "Ellipse 1", cx: 23.47, cy: 10.952, rx: 23.47, ry: 10.952, transform: "translate(0 42.831)", fill: "#ecf4ff" }),
+            React__default['default'].createElement("path", { "data-name": "Path 5", d: "M41.569 46.811a6.2 6.2 0 011.615 4c0 6.049-10.508 10.952-23.47 10.952-7.285 0-13.795-1.549-18.1-3.98 3.424 4.071 11.918 6.953 21.855 6.953 12.962 0 23.47-4.9 23.47-10.952 0-2.649-2.015-5.083-5.37-6.973z", fill: "#cbe2ff" }),
+            React__default['default'].createElement("ellipse", { "data-name": "Ellipse 2", cx: 7.823, cy: 3.755, rx: 7.823, ry: 3.755, transform: "translate(15.646 50.028)", fill: "#b78b7a" })),
+        React__default['default'].createElement("text", { "data-name": "Tissue Finance", transform: "translate(97.6 44)", fill: "#707070", fontSize: 30, fontFamily: "SegoeUI-Bold, Segoe UI", fontWeight: 700 },
+            React__default['default'].createElement("tspan", { x: 0, y: 0 }, "Tissue Finance"))));
 };
 
 var Icon$P = function (props) {
@@ -2769,17 +2778,17 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#aa8929",
-    primaryBright: "#aa8929",
-    primaryDark: "#aa8929",
-    secondary: "#7645D9",
+    primary: "#bbdefb",
+    primaryBright: "#b3e5fc",
+    primaryDark: "#90caf9",
+    secondary: "#64b5f6",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#64b5f6", textDisabled: "#BDC2C4", textSubtle: "#90caf9", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
