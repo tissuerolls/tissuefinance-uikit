@@ -1137,8 +1137,15 @@ var Progress = function (_a) {
 
 var rotate$1 = styled.keyframes(templateObject_1$r || (templateObject_1$r = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var SpinnerIcon = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "/images/egg/9.png" })));
+    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "2em", height: "2em", viewBox: "0 0 300.6 63.837" }, props),
+        React__default['default'].createElement("g", { transform: "translate(0 -42.831)" },
+            React__default['default'].createElement("path", { "data-name": "Path 1", d: "M76.171 88.251l-1.74-2.593a1.549 1.549 0 010-1.726l1.97-2.936a1.549 1.549 0 000-1.726l-1.973-2.937a1.549 1.549 0 010-1.726l1.971-2.936a1.549 1.549 0 000-1.726l-1.971-2.937a1.549 1.549 0 010-1.726l1.971-2.936a1.549 1.549 0 000-1.726l-1.971-2.937a1.549 1.549 0 010-1.726l1.971-2.936a1.549 1.549 0 000-1.726l-1.971-2.937a1.549 1.549 0 010-1.726l1.74-2.593a.774.774 0 00-.643-1.206H23.47v46.625h52.058a.775.775 0 00.643-1.207z", fill: "#bed8fb" }),
+            React__default['default'].createElement("path", { "data-name": "Path 2", d: "M41.521 42.92l-.195-.089H23.47v46.626h26.912V53.783c0-4.339-3.147-8.2-8.861-10.864z", fill: "#9dc6fb" }),
+            React__default['default'].createElement("path", { "data-name": "Path 3", d: "M0 95.715c0 6.049 10.508 10.952 23.47 10.952s23.47-4.9 23.47-10.952V53.783H0z", fill: "#ecf4ff" }),
+            React__default['default'].createElement("path", { "data-name": "Path 4", d: "M43.813 53.783v41.932c0 5.8-9.673 10.552-21.9 10.928q.776.024 1.565.025c12.962 0 23.47-4.9 23.47-10.952V53.783z", fill: "#cbe2ff" }),
+            React__default['default'].createElement("ellipse", { "data-name": "Ellipse 1", cx: 23.47, cy: 10.952, rx: 23.47, ry: 10.952, transform: "translate(0 42.831)", fill: "#ecf4ff" }),
+            React__default['default'].createElement("path", { "data-name": "Path 5", d: "M41.569 46.811a6.2 6.2 0 011.615 4c0 6.049-10.508 10.952-23.47 10.952-7.285 0-13.795-1.549-18.1-3.98 3.424 4.071 11.918 6.953 21.855 6.953 12.962 0 23.47-4.9 23.47-10.952 0-2.649-2.015-5.083-5.37-6.973z", fill: "#cbe2ff" }),
+            React__default['default'].createElement("ellipse", { "data-name": "Ellipse 2", cx: 7.823, cy: 3.755, rx: 7.823, ry: 3.755, transform: "translate(15.646 50.028)", fill: "#b78b7a" }))));
 };
 var Container$1 = styled__default['default'].div(templateObject_2$6 || (templateObject_2$6 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject_3$2 || (templateObject_3$2 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), rotate$1);
@@ -2143,61 +2150,12 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/goosedefi",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            // {
-            //   label: "中文",
-            //   href: "https://t.me/PancakeSwap_CN",
-            // },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            // {
-            //   label: "Italiano",
-            //   href: "https://t.me/pancakeswap_ita",
-            // },
-            // {
-            //   label: "русский",
-            //   href: "https://t.me/pancakeswap_ru",
-            // },
-            // {
-            //   label: "Türkiye",
-            //   href: "https://t.me/pancakeswapturkiye",
-            // },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            // {
-            //   label: "Español",
-            //   href: "https://t.me/PancakeswapEs",
-            // },
-            // {
-            //   label: "日本語",
-            //   href: "https://t.me/pancakeswapjp",
-            // },
-            // {
-            //   label: "Français",
-            //   href: "https://t.me/pancakeswapfr",
-            // },
-            {
-                label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-        ],
+        href: "https://t.me/TissueFinance",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "https://twitter.com/RollsTissue",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2329,9 +2287,6 @@ var PanelFooter = function (_a) {
                 var Icon = Icons$1[social.icon];
                 var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
                 var mr = index < socials.length - 1 ? "24px" : 0;
-                if (social.items) {
-                    return (React__default['default'].createElement(Dropdown, { key: social.label, position: "top", target: React__default['default'].createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React__default['default'].createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
-                }
                 return (React__default['default'].createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React__default['default'].createElement(Icon, __assign({}, iconProps))));
             }))),
